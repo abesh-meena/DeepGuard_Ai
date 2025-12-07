@@ -1,0 +1,25 @@
+# Core dependencies for model training and inference
+tensorflow>=2.10.0
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+opencv-python>=4.5.0
+pillow>=8.0.0
+pydantic>=1.10.0
+
+# Web framework and API
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+python-multipart>=0.0.5
+
+# UI
+streamlit>=1.20.0
+requests>=2.28.0
+
+# Optional: For better performance (GPU support)
+# tensorflow-gpu>=2.10.0  # Uncomment if you have CUDA-compatible GPU
+
+# Optional: For development and visualization
+# matplotlib>=3.5.0
+# seaborn>=0.12.0
+# jupyter>=1.0.0
